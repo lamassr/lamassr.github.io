@@ -1,5 +1,5 @@
 <?php
-header('http://sr2020.fr');
+header('https://lamassr.github.io/');
 
 ## menu gauche
 
@@ -48,19 +48,19 @@ function baseref()
   if ($_SERVER['REMOTE_ADDR']=='127.0.0.1') {
     $baseref='http://localhost:8000/';
   } else {
-    $baseref='http://bastien-maubert.fr/sr2020/';
+    $baseref='https://lamassr.github.io/';
   }
   return $baseref;
 }
 
-function head($title="SR 2020") {
+function head($title="LAMAS&SR 2021") {
   echo "
 <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
 <html xmlns = \"http://www.w3.org/1999/xhtml\" xml:lang = \"en\">
 	<head>
-		<title> SR - International Workshop on Strategic Reasoning </title>
-		<meta name = \"title\" content = \"SR - International Workshop on Strategic Reasoning\" />
-		<meta name = \"description\" content = \"International Workshop on Strategic Reasoning: SR Central Web Site\" />
+		<title> LAMAS&SR </title>
+		<meta name = \"title\" content = \"LAMAS&SR\" />
+		<meta name = \"description\" content = \"International Workshop on Logical Aspects in Multi-Agent Systems and Strategic Reasoning\" />
 		<meta name = \"keywords\" content = \"Theoretical computer science; Strategic reasoning.\" />
 		<meta http-equiv = \"content-type\" content = \"text/html; charset=utf-8\" />
 		<meta http-equiv = \"content-style-type\" content = \"text/css; charset=utf-8\" />
