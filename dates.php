@@ -39,72 +39,18 @@
 </div>
     <div id = "content">
 
-<h1>8<sup>th</sup> International Workshop on Strategic Reasoning</h1>
-<h2>September 7-8, 2020<br/>
- Satellite Workshop of <a href="http://ecai2020.eu/">ECAI 2020</a></h2>
-
-<p style='color:red;'>
-**************************************************************************************
-</p>
-<p style='color:red; font-size: 15px;' >
-NEWS
-</p>
-
-</p>
-<p style='color:black; font-size: 15px;' >
-<span style="color:red">Practical information: </span>
-</br></br><span style="color:black">The link to the Zoom conference will be accessible from the ECAI program at <a href="https://digital.ecai2020.eu/session/strategic-reasoning-2020/">this page</a>.
-Access is free, subject to sign up to ECAI 2020 (<a href="https://digital.ecai2020.eu/sign-up">https://digital.ecai2020.eu/sign-up</a>).
-</span>
-
-</p>
-
-
-</p>
-<p style='color:red; font-size: 15px;' >
-New dates : <span style="color:black">September</span> <del>4-5</del> <span style="color:red">7-8</span>
-</p>
-
-<p style='color:red; font-size: 15px;' >
-Covid-19: SR goes online
-</p>
-<p style='color:black' >
-The ECAI conference and associated workshops have been <a href="http://ecai2020.eu/ecai2020-rescheduled/">postponed to 29/8-5/9</a>, and will be virtual. SR 2020 will thus	be held online, with live talks and questions.
-</p>
-<p style='color:red; font-size: 15px;' >
-Invited speakers
-</p>
-
-</p>
-<p style='color:black' >We will have two invited speakers,  Francesco Belardinelli and Moshe Vardi.
-</p>
-<p style='color:red;'>
-**************************************************************************************
-</p>
-
+<h1>Important dates</h1>
 
 <p>
-  <em>Strategic reasoning</em> is one of the most active research areas
-  in multi-agent system domain.  The literature in this field is
-  extensive and provides a plethora of logics for modeling strategic
-  ability.  Theoretical results are now being used in many exciting
-  domains, including software tools for information system security,
-  robot teams with sophisticated adaptive strategies, and automatic
-  players capable of beating expert human adversaries, just to cite a
-  few.  All these examples share the challenge of developing novel
-  theories and tools for agent-based reasoning that take into account
-  the likely behavior of adversaries.
+Here are the new dates for the workshop:
 </p>
 
-<p>
-  The <em>SR international workshop</em> aims at bringing together
-  researchers working on different aspects of strategic reasoning in
-  computer science, both from a theoretical and a practical point of
-  view.
-</p>
-
-
-
+<ul>
+<li>Paper submission:  <del>June 1</del> <span style="color:red">June 8</span> (AoE)</li>
+<li>Notification: July 6</li>
+<li>Final version: August 3</li>
+<li>Workshop: September 7 - 8</li>
+</ul>
 
 
 </div>

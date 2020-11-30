@@ -39,72 +39,42 @@
 </div>
     <div id = "content">
 
-<h1>8<sup>th</sup> International Workshop on Strategic Reasoning</h1>
-<h2>September 7-8, 2020<br/>
- Satellite Workshop of <a href="http://ecai2020.eu/">ECAI 2020</a></h2>
+<h1>Invited speakers</h1>
 
-<p style='color:red;'>
-**************************************************************************************
-</p>
-<p style='color:red; font-size: 15px;' >
-NEWS
-</p>
+<br/>
+<hr>
+<br/>
+<a href="https://www.doc.ic.ac.uk/~fbelard/"><b>Francesco Belardinelli</b></a> (Imperial College, London)
+<br/><br/>
+Information and Memory in the Verification of Multi-agent Systems 
+<br/><br/>
+Information and memory are two key dimensions in the analysis of multi-agent systems (MAS). Having perfect or imperfect information, resp. memory, about the state of the system has a dramatic impact on the strategic abilities of agents, including the complexity of MAS verification. In the worst-case, when agents have imperfect information and perfect recall, the model checking problem for the Alternating-time Temporal Logic (ATL) becomes undecidable. Unfortunately, this setting is of interest for several applications, including communications and security protocols.
+<br/><br/>
+In this talk I will review some recent advances that tackle this undecidable problem by approximating either information or memory, by using three-valued abstractions. Intuitively, the model checking algorithms for three-valued ATL return an undefined truth value whenever there is not enough information or memory to decide the specification at hand in the standard two-valued semantics. Refinement procedures are then put in place to add either information or memory, with the goal of providing a defined answer.
+<br/><br/>
+This talk is based on joint work with Vadim Malvone (Telecom Paris) and Alessio Lomuscio (Imperial College London) that has been published in KR&R18, AAAI19, and KR&R20.
+<br/><br/>
 
-</p>
-<p style='color:black; font-size: 15px;' >
-<span style="color:red">Practical information: </span>
-</br></br><span style="color:black">The link to the Zoom conference will be accessible from the ECAI program at <a href="https://digital.ecai2020.eu/session/strategic-reasoning-2020/">this page</a>.
-Access is free, subject to sign up to ECAI 2020 (<a href="https://digital.ecai2020.eu/sign-up">https://digital.ecai2020.eu/sign-up</a>).
-</span>
+<hr>
 
-</p>
+<br/>
+<a href="https://www.cs.rice.edu/~vardi/"><b>Moshe Vardi</b></a> (Rice University, Houston)
+<br/><br/>
+Lessons from COVID-19: Efficiency vs Resilience 
+<br/><br/>
+In both computer science and economics, efficiency is a cherished
+property. In computer science, the field of algorithms is almost
+solely focused on their efficiency. In economics, the main advantage
+of the free market is that it promises "economic efficiency". A
+major lesson from COVID-19 is that both fields have over-emphasized
+efficiency and under-emphasized resilience. We argue that resilience
+is a more important property than efficiency and discuss how the two
+fields can broaden their focus to make resilience a primary consideration.
+I will conclude with a technical example, showing how we can shift
+the focus in strategic reasoning from efficiency to resilience.
 
-
-</p>
-<p style='color:red; font-size: 15px;' >
-New dates : <span style="color:black">September</span> <del>4-5</del> <span style="color:red">7-8</span>
-</p>
-
-<p style='color:red; font-size: 15px;' >
-Covid-19: SR goes online
-</p>
-<p style='color:black' >
-The ECAI conference and associated workshops have been <a href="http://ecai2020.eu/ecai2020-rescheduled/">postponed to 29/8-5/9</a>, and will be virtual. SR 2020 will thus	be held online, with live talks and questions.
-</p>
-<p style='color:red; font-size: 15px;' >
-Invited speakers
-</p>
-
-</p>
-<p style='color:black' >We will have two invited speakers,  Francesco Belardinelli and Moshe Vardi.
-</p>
-<p style='color:red;'>
-**************************************************************************************
-</p>
-
-
-<p>
-  <em>Strategic reasoning</em> is one of the most active research areas
-  in multi-agent system domain.  The literature in this field is
-  extensive and provides a plethora of logics for modeling strategic
-  ability.  Theoretical results are now being used in many exciting
-  domains, including software tools for information system security,
-  robot teams with sophisticated adaptive strategies, and automatic
-  players capable of beating expert human adversaries, just to cite a
-  few.  All these examples share the challenge of developing novel
-  theories and tools for agent-based reasoning that take into account
-  the likely behavior of adversaries.
-</p>
-
-<p>
-  The <em>SR international workshop</em> aims at bringing together
-  researchers working on different aspects of strategic reasoning in
-  computer science, both from a theoretical and a practical point of
-  view.
-</p>
-
-
-
+<br/><br/>
+<hr>
 
 
 </div>
