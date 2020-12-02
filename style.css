@@ -6,19 +6,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-}
-
-/* The profile picture */
-img.profile {
-    border-radius: 0%;
-    display: inline-block;
-    margin: auto;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    max-width: 65%;
-}
-img.profile:hover {
-    filter: none;
+    background-color: #fdfdfdf !important;
 }
 
 /* The sidebar menu */
@@ -36,22 +24,6 @@ img.profile:hover {
     padding-right: 60px;
 }
 
-.sidenav h2 {
-    color: #ffffff;
-    font-size: 22px;
-    margin-top: 25px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-}
-
-.sidenav h3 {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Crimson Text', sans-serif;
-    letter-spacing: 1px;
-}
 
 .sidenav p {
     color: #ffffff;
@@ -62,71 +34,22 @@ img.profile:hover {
     opacity: 0.8;
     }
 
-.contact.label {
-    font-family: 'Montserrat', sans-serif !important;    
-    font-size: 10px !important;
-    font-style: normal !important;
-    opacity: 1;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 40px !important;
-    } 
-    
-/* No bullet, no indent, contact details lists */
-ul.contact {
-
-  list-style-type:none;
-  padding: 0pt;
-  font-size: 18px;
-}
-    
-    
-.contact {
-    font-family: 'Montserrat', sans-serif !important;  
-    font-style: normal !important;
-    font-size: 14px !important;
-    opacity: 1 !important;
-    font-weight: 300;
-    margin-top: 0px !important;
-    }
-
-.social {
-/*     margin-left: 0px; */
-/*     margin-bottom: 80px; */
+figcaption {
+    text-align: right;
+    margin-top: -1.5em;
+    color: #eeeeee;
+    font-size: 18pt;
+    font-weight: bold;
 }
 
-.social img {
-/*     display: block; */
-/*     float: left; */
-/*     margin-right: 15px; */
-    max-width: 35%;
-/*     border-radius: 30%; */
-/*     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */ */
-    filter: grayscale(100%);
-/*     margin: auto; */
- 
+img.logo{
+    float: center;
+/*     max-width: 100%; */
+    width: 100%;
+    margin: 1rem 1 1rem 1rem;
+    margin-left: 2%;
 }
 
-.social a {
-    padding: 0px !important;
-}
-
-/* Findme details lists */
-ul.findme {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 1;
-  list-style-type: none;
-}
-
-.paper_title {
-    font-weight: 500 !important;
-    margin-bottom: 0em;
-}
-.paper_details {
-    margin-top: 0em !important;
-}
-    
 
 /* The navigation menu links */
 
@@ -136,7 +59,7 @@ ul.findme {
 
 .menu a {
     padding: 10px 10px 10px 0px;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 14px !important;
     color: #ffffff !important;
     display: block;
@@ -160,6 +83,7 @@ ul.findme {
     padding: 50px 50px 50px 50px;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
 }
 
 .main p {
@@ -169,37 +93,55 @@ ul.findme {
     text-align: justify;
 }
 
-.intro {
-    font-size: 18px !important;
+.text {
+    max-width: 80%;
+    margin: auto;
+}
+
+.coln {
+    float: left;
+    width: 50%;
+}
+
+.coln ul {
+    list-style-type: none;
 }
 
 
-.plaintext_a {
-    text-transform: none; 
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 h1 {
     text-align: center;
-    padding-top: 20px;
-}
-
-h2 {
-    text-align: center;
+    font-size: 20pt !important;
     padding-top: 10px;
 }
 
-h3 {
-    float: center;
-    font-size: 22pt !important;
-    padding-bottom: 0px;
-    padding-top: 20px;
-    color: #b34d4d;
+h2 {
+    font-size: 14pt !important;
+    text-align: center;
+    padding-top: 0px;
 }
+
+h3 {
+    font-size: 18pt !important;
+    text-align: left;
+    padding-top: 5px;
+}
+
+h4 {
+    font-size: 14pt !important;
+    padding-left: 10pt;
+}
+
 
 a {
     color: black !important;
-    text-decoration: none;
-    font-weight: 300;
+    text-decoration: underline !important;
+/*     font-weight: 300; */
 }
 
 /* On smaller screens (less padding and a smaller font size) */
@@ -241,18 +183,4 @@ a {
     
 }
 
-img.logo{
-    float: center;
-    max-width: 100%;
-    width: 100%;
-/*     margin: 1rem 1 1rem 1rem; */
-/*     margin-left: 2%; */
-}
 
-
- a.reverse {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  color: #ffffff !important;
-  text-decoration: none;
-}
