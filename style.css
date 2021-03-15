@@ -116,6 +116,10 @@ img.speaker {
     list-style-type: none;
 }
 
+.rows a {
+    text-decoration: none !important;
+    color: blue !important;
+}
 
 .rows:after {
   content: "";
