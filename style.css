@@ -197,3 +197,20 @@ a {
 }
 
 
+/* For tables */
+
+table {
+    border-collapse: collapse;
+}
+
+.rulet {
+    border-top: 1px solid grey;
+}
+
+.ruleb {
+    border-bottom: 1px solid grey;
+}
+
+.rulelightb {
+    border-bottom: 1px dotted grey;
+}
